@@ -1,6 +1,7 @@
 # The Recruiter
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 This app is being produced for the Linn Benton Community College Women's Basketball team.
 
 ## To Instructions and Pictures

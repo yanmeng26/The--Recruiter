@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## To Instructions and Pictures
+See the section [The Recruiter Instruction](https://github.com/yanmeng26/The--Recruiter/blob/master/The%20Recruiter%20Instruction.pdf)
+
 ## To View Locally
 
 `npm install`

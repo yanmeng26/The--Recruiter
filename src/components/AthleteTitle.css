@@ -1,0 +1,13 @@
+.Athlete-Table-Title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.button-addnew {
+  width: 100px;
+  margin-left: 2%;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 12px;
+}

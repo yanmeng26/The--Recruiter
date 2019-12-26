@@ -1,0 +1,17 @@
+version: '3.5'
+
+services:
+
+  CS467-recuiting-app:
+    container_name: CS467-recuiting-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/usr/src/app'
+      - '/usr/src/app/node_modules'
+    ports:
+      - '8080:8080'
+    environment:
+      - NODE_ENV=development
+      - CHOKIDAR_USEPOLLING=true

@@ -1,0 +1,126 @@
+.dashboard-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 80px 20px;
+  }
+  .dashboard-calendar{
+      text-align:right;
+      font-size:1.4rem;
+      font-weight:bold;
+      
+  }
+
+
+
+label
+{
+    margin-right:10px;
+    
+}
+
+
+
+.dashboard-year{
+    display: inline-block;
+    background-color:navy;  
+    color: #e3d012;
+}
+div.dashboard-section {
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    text-align:center;
+    margin-top:50px;
+    
+  }
+
+  .dashboard-title{
+      font-size:1.8rem;
+      font-weight:bold;
+  }
+  .dashboard-section-one, .dashboard-section-three, .dashboard-section-four,.dashboard-section-five,.dashboard-section-six{
+      background-color:white;
+      
+     margin-top:20px;
+      margin-right:50px;
+      margin-left:50px;
+      height: 200px;
+      
+      font-weight:bold;
+      -webkit-box-shadow: 0px 10px 20px -11px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 0px 10px 20px -11px rgba(0, 0, 0, 0.9);
+  box-shadow: 0px 10px 20px -11px rgba(0, 0, 0, 0.9);
+  }
+  .dashboard-section-one{
+    padding-top:70px;
+    font-size:3rem;
+}
+.dashboard-section-four,.dashboard-section-five, .dashboard-section-three
+{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+
+
+.dashboard-section-six{
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:30px;
+    text-align:left;
+
+}
+
+  .dashboard-section-two{
+    background-color:white;
+    padding-top:70px;
+   margin-top:20px;
+    margin-right:50px;
+    margin-left:50px;
+    height: 200px;
+    font-size:3rem;
+    font-weight:bold;
+    -webkit-box-shadow: 0px 10px 20px -11px rgba(0, 0, 0, 0.9);
+-moz-box-shadow: 0px 10px 20px -11px rgba(0, 0, 0, 0.9);
+box-shadow: 0px 10px 20px -11px rgba(0, 0, 0, 0.9);
+}
+
+.dashboard-section-four,.dashboard-section-five{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+.item-one {
+    grid-column-end: span 1;
+    grid-row-end: span 2;
+    
+    border-right:solid black;
+  }
+
+  .item-one, .item-two{
+    font-size:1.2rem;
+  }
+
+  @media (max-width: 1099px) and (min-width: 850px) {
+    .dashboard-section-three{
+        max-width:250px;
+    }
+ 
+  }
+
+@media (max-width: 849px)  {
+    div.dashboard-section {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+    .dashboard-section div {
+        margin-top:25px;
+    }
+    .dashboard-calendar{
+        margin-top:25px;
+    }
+     
+}

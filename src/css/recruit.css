@@ -1,0 +1,172 @@
+.recruit-social-icons {
+    max-width: 300px;
+    display: flex;
+    margin-top: 20px;
+}
+.recruit-social-icons>a {
+    flex: 0 1 50px;
+    padding: 5px;
+}
+.recruit-social-icons img {
+    width: 100%;
+}
+.react-tabs__tab-panel {
+    padding: 20px 0;
+}
+.react-tabs__tab {
+    padding: 15px;
+}
+.react-tabs__tab--selected {
+    pointer-events: none;
+}
+.recruit-info {
+    margin-top: 20px;
+}
+.recruit-info-list {
+    border: .5px solid #000;
+    width: 100%;
+    max-width: 400px;
+}
+.recruit-info-list th, 
+.recruit-info-list td {
+    border: .5px solid #000;
+    border-collapse: collapse;
+    padding: 5px 10px;
+}
+.recruit-info-list td {
+    text-align: center;
+}
+.evaluations-list .evaluations-item {
+    padding: 10px 20px;
+    text-align: left;
+}
+.evaluations-data.notes {
+    width: 100%;
+    margin-top: 10px;
+}
+.button.edit {
+    display: block;
+    max-width: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.heading-with-button h1,
+.heading-with-button h2,
+.heading-with-button h3,
+.heading-with-button h4,
+.heading-with-button h5,
+.heading-with-button .button {
+    display: inline-block;
+    margin-right: 30px;
+}
+.md-textarea {
+    width: 100%;
+    height: 300px;
+}
+.accordion-item.open .accordion-content {
+    padding: 20px;
+    border-bottom: 1px solid #aaa;
+}
+.accordion-item .accordion-panel {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.accordion-item p {
+    padding: 0;
+    margin: 0 0 5px 0;
+}
+.accordion-item .accordion-content button {
+    width: auto;
+    margin-bottom: 20px;
+    margin-right: 10px
+}
+.accordion-item .accordion-content button.submit {
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 20px;
+}
+.accordion-item .title {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    padding: 15px 20px;
+    border-bottom: 1px solid #a7a7a7!important;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;  
+    font-family: lato, sans-serif;
+    font-size: 16px;
+}
+.accordion-item input,
+.accordion-item select,
+.accordion-item textarea{
+    min-width: auto;
+}
+.evaluations-list .accordion-item:nth-child(odd) .title {
+    background-color: #eee;
+}
+.evaluations-list .accordion-item .title:hover {
+    background-color: #e2f0ff;
+}
+.accordion-item:first-child {
+    border-top: 1px solid #a7a7a7!important;
+}
+.accordion-item {
+    position: relative;
+}
+.accordion-item:before {
+    content: '+';
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    font-size: 22px;
+    display: block;
+    -webkit-transition: -webkit-transform 400ms linear;
+    transition: -webkit-transform 400ms linear;
+    -o-transition: transform 400ms linear;
+    transition: transform 400ms linear;
+    transition: transform 400ms linear, -webkit-transform 400ms linear;
+    -webkit-transform-origin: center;
+        -ms-transform-origin: center;
+            transform-origin: center;
+}
+.accordion-item.open:before {
+    -webkit-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+            transform: rotate(135deg);
+}
+.guardians-list select {
+    margin-bottom: 20px;
+}
+.club-info {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.club-info+.club-coach-info {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.team-name {
+    font-weight: bold;
+    text-decoration: none
+}
+@media (max-width: 600px) {
+    .react-tabs__tab {
+        display: block;
+        padding: 10px 20px;
+        margin: 5px 0;
+    }
+    .react-tabs__tab--selected {
+        border-radius: 5px;
+        border: 1px solid #aaa;
+    }
+    .react-tabs__tab-list {
+        padding-bottom: 15px
+    }
+    .react-tabs__tab-panel {
+        padding: 0;
+    }
+}

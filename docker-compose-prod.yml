@@ -1,0 +1,11 @@
+version: '3.5'
+
+services:
+
+  CS467-recuiting-app-prod:
+    container_name: CS467-recruiting-app-prod
+    build:
+      context: .
+      dockerfile: Dockerfile-prod
+    ports:
+      - '80:80'

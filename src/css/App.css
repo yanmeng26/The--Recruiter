@@ -1,0 +1,173 @@
+body {
+  font-family: lato, sans-serif;
+  font-size: 16px;
+  /*margin-top: 60px;*/
+  min-width: 320px;
+}
+body * {
+  box-sizing: border-box;
+}
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+form {
+  margin-bottom: 40px; 
+}
+td {
+    padding: 5px;
+}
+li {
+  padding: 3px 0;
+}
+h1 {
+  margin-bottom: 40px;
+}
+.heading-with-button h1 {
+  margin-bottom: 20px;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+.no-style {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  background-color: unset;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+}
+.inline {
+  display: inline!important;
+  margin-right: 5px
+}
+.left {
+    text-align: left;
+}
+.no-padding {
+  padding:0;
+}
+.button,
+.button:link,
+.button:active,
+.button:visited,
+.button:hover {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;    
+  display: inline-block;
+}
+.button-primary,
+.button-primary:link,
+.button-primary:active,
+.button-primary:visited,
+.button-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+.button-secondary,
+.button-secondary:link,
+.button-secondary:active,
+.button-secondary:visited,
+.button-secondary:hover {
+  background-color: #a7a7a7;
+  color: #fff;
+}
+.button-red,
+.button-red:link,
+.button-red:active,
+.button-red:visited,
+.button-red:hover {
+  background-color: #e50000;
+  color: #fff;
+}
+.button:hover {
+  opacity: 0.9;
+}
+.button-sm,
+.button-sm:link,
+.button-sm:active,
+.button-sm:visited,
+.button-sm:hover {
+  padding: 0 5px;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.button-md,
+.button-md:link,
+.button-md:active,
+.button-md:visited,
+.button-md:hover {
+  padding: 3px 10px;
+  font-size: 14px;
+  margin-left: 10px;
+  border-radius: 7px;
+}
+
+.button.submit,
+.button.submit:link,
+.button.submit:active,
+.button.submit:visited,
+.button.submit:hover {
+  margin-top: 20px;
+}
+.off-screen {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
+}
+Switch {
+  width: 80px;
+}
+.desktop-only {
+  display: initial;
+}
+.mobile-only {
+  display: none;
+}
+.main-content {
+  padding-top: 80px;
+}
+.flex-list-dt {
+  margin: 20px 0 10px 0;
+}
+@media (max-width: 1140px) {
+  .main-content {
+    padding: 60px 20px 20px 20px;
+  }
+}
+@media (min-width: 768px) {
+  .flex-list-dt {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flex-list-dt .coach-item {
+    width: 225px;
+  }
+}
+@media (max-width: 767px) {
+  .desktop-only {
+    display: none;
+  }
+  .mobile-only {
+    display: initial;
+  }
+  .main-content {
+    padding: 90px 20px 20px 20px;
+  }
+  .container {
+    padding: 100px 20px 60px 20px;
+  }
+}

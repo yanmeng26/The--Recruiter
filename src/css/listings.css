@@ -1,0 +1,96 @@
+.listing {
+    max-width: 100%;
+    overflow: auto;
+    font-size: 14px;
+}
+.listing table,
+.listing .form-inputs select {
+    width: 100%;
+}
+.listing td {
+    padding: 15px 5px;
+    border-bottom: 1px solid #d7d7d7;
+}
+.listing th {
+    padding: 10px 5px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+.listing th button {
+    font-weight: bold;
+    padding: 5px 15px 5px 5px;
+    position: relative;
+    text-align: left;
+}
+.listing th button::before {
+    content: '';
+    position: absolute;
+    top: 35%;
+    right: 0;
+    margin-left: 5px;
+    width: 0;
+    /* display: inline-block; */
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 8px solid #d7d7d7;
+    clear: both;
+}
+.listing th button.desc::before {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.list-buttons {
+    width: 90px;
+}
+.form-inputs,
+.form-inputs .form-input {
+    margin-bottom: 15px;
+}
+.form-inputs label {
+    display: block;
+    font-weight: bold;
+}
+.form-inputs .no-weight {
+    font-weight: 500;
+}
+.form-inputs input,
+.form-inputs select {
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+    width: 100%;
+}
+.form-inputs .form-input.range {
+    flex: 0 1 auto;
+}
+.form-inputs .form-input.range input {
+    width: 60px;
+}
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 310px;
+    margin: 0 auto;
+}
+.form-buttons button {
+    width: 150px;
+}
+@media (min-width: 768px) {
+    .form-inputs {
+        display: flex;
+    }
+    .form-inputs .form-input {
+        flex: 1;
+        margin-right: 20px;
+    }
+    .form-inputs .form-input:last-child {
+        margin-right:  0;
+    }
+}
+@media (max-width: 767px) {
+    .form-buttons button {
+        width: 135px;
+    }
+}
